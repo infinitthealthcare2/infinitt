@@ -42,7 +42,7 @@
 			<img alt="" src="..\resources\img\light_img_infinitt_ci.png">
 		</div>
 		
-		<form id="actionForm" action="/infinitt/news/news" method="get">
+		<form id="actionForm" action="/infinitt/career/resumelist" method="get">
 			<div class="form-control border-0 small position-relative" style="height:50px">
 				<div class="position-absolute bottom-0 end-0">
 					<input type="hidden" name="pageNum" value="${pageMaker.cri.pageNum}">
@@ -92,7 +92,7 @@
 			
 		</table>
 		
-		<form id="actionForm" action="/infinitt/resume/resumelist" method="get">
+		<form id="actionForm" action="/infinitt/career/resumelist" method="get">
 			<div id="dataTable_paginate" aria-label="Page navigation example">
 				<ul class="pagination justify-content-center">
 					<c:if test="${pageMaker.prev}">

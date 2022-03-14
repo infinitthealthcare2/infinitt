@@ -95,7 +95,6 @@ public class BoardController {
 	}
 	
 	
-	//파일 삭제 버튼을 클릭하면
 	@GetMapping("fileDelete")
 	public String fileDelete(AttachFileDTO attach, BoardDTO board) {
 		

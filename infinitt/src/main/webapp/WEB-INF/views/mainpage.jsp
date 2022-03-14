@@ -349,7 +349,7 @@
                     <p>글로벌 무대에서 활약하고 있는 인피니트의 최신 소식을 만나보세요.</p>
                 </div>
                 
-                <div class="news_table_list" id="news_table_list" >
+                <div class="news_table_list" id="news_table_list">
                     <table>
                     <colgroup>
                         <col style="width:92%;">

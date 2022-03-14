@@ -11900,9 +11900,11 @@ img {
 
 
 .news_table_list{
-	width : 100%;
+	margin-left : 95px;
+	
+	/* padding-top : 60px;
+	box-sizing : border-box; */
 	height : 250px;
-	margin : 20px 0 0 100px ;
 
 }
 

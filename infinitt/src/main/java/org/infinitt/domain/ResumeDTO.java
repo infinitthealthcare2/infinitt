@@ -29,7 +29,6 @@ public class ResumeDTO {
 	private String intit;
 	private String intxt;
 	private String regdate;
-	
 	private ArrayList<AttachFileDTO> attachList;
 	
 	private String school_year_start;

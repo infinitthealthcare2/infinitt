@@ -35,7 +35,7 @@
   	</select>
   	
   	<select id="rfileList" resultType="org.infinitt.domain.AttachFileDTO"><!-- 넘겨야 하는 곳 -->
-  		select * from attach where rbno=#{rbno};
+  		select*from attach where rbno=#{rbno};
   	</select>
   	
   	<update id="fileListPost" ><!-- 넘겨야 하는 곳 -->

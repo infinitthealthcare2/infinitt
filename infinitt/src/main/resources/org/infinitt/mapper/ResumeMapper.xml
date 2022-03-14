@@ -9,8 +9,8 @@
 		<selectKey keyProperty="rbno" order="BEFORE" resultType="int">
   			select ifnull (MAX(rbno), 0 )+1 from resume
   		</selectKey>
-  		insert into resume(title,name,birth,gender,email,tel,career,pay,region,school_type,school_name,major,grades,lisence_type,awards_name,agency,pass,intit,intxt, job)
-		values(#{title},#{name},#{birth},#{gender},#{email},#{tel},#{career},#{pay},#{region},#{school_type},#{school_name},#{major},#{grades},#{lisence_type},#{awards_name},#{agency},#{pass},#{intit},#{intxt}, #{job})
+  		insert into resume(title,name,birth,gender,email,tel,career,pay,region,school_type,school_name,major,grades,lisence_type,awards_name,agency,pass,intit,intxt, job, school_year_start, school_year_end, acquisition_date_start, acquisition_date_end)
+		values(#{title},#{name},#{birth},#{gender},#{email},#{tel},#{career},#{pay},#{region},#{school_type},#{school_name},#{major},#{grades},#{lisence_type},#{awards_name},#{agency},#{pass},#{intit},#{intxt}, #{job}, #{school_year_start}, #{school_year_end}, #{acquisition_date_start}, #{acquisition_date_end})
 		
 		<!-- insert into resume(intit,intxt)
 		values(#{intit},#{intxt}) -->
@@ -103,7 +103,7 @@
   	</select> 	 -->
   	
   	<select id="resume_lisence" resultType="org.infinitt.domain.ResumeDTO">
-		 select rbno, substring_index(substring_index(lisence_type,',',1),',',-1) as lisence_type,
+		 <!-- select rbno, substring_index(substring_index(lisence_type,',',1),',',-1) as lisence_type,
 					 substring_index(substring_index(awards_name,',',1),',',-1) as awards_name,
 		             substring_index(substring_index(agency,',',1),',',-1) as agency,
 		             substring_index(substring_index(pass,',',1),',',-1) as pass
@@ -122,7 +122,11 @@
 		             substring_index(substring_index(agency,',',3),',',-1) as agency,
 		             substring_index(substring_index(pass,',',3),',',-1) as pass
 		from resume
-		where rbno=#{rbno}
+		where rbno=#{rbno} -->
+		
+		{
+         call lisence(#{rbno})
+      }
   	</select> 	
   	
   	

@@ -31,17 +31,18 @@ public class ResumeDTO {
 	private String regdate;
 	private ArrayList<AttachFileDTO> attachList;
 	
+	private String school_year_start;
+	private String school_year_end;
+	private String acquisition_date_start;
+	private String acquisition_date_end;
+	
+	
 	
 	
 	
 
 	
-	/*public int getGrades() {
-		return grades;
-	}
-	public void setGrades(String grades) {
-		this.grades = Integer.parseInt(grades);
-	}*/
+	
 	
 	public String getGrades() {
 	return grades;
@@ -198,6 +199,35 @@ public class ResumeDTO {
 	public void setAttachList(ArrayList<AttachFileDTO> attachList) {
 		this.attachList = attachList;
 	}
+	
+	
+	
+	public String getSchool_year_start() {
+		return school_year_start;
+	}
+	public void setSchool_year_start(String school_year_start) {
+		this.school_year_start = school_year_start;
+	}
+	public String getSchool_year_end() {
+		return school_year_end;
+	}
+	public void setSchool_year_end(String school_year_end) {
+		this.school_year_end = school_year_end;
+	}
+	public String getAcquisition_date_start() {
+		return acquisition_date_start;
+	}
+	public void setAcquisition_date_start(String acquisition_date_start) {
+		this.acquisition_date_start = acquisition_date_start;
+	}
+	public String getAcquisition_date_end() {
+		return acquisition_date_end;
+	}
+	public void setAcquisition_date_end(String acquisition_date_end) {
+		this.acquisition_date_end = acquisition_date_end;
+	}
+	
+	
 	@Override
 	public String toString() {
 		return "ResumeDTO [rbno=" + rbno + ", job=" + job + ", title=" + title + ", name=" + name + ", birth=" + birth
@@ -205,8 +235,14 @@ public class ResumeDTO {
 				+ school + ", career=" + career + ", pay=" + pay + ", region=" + region + ", school_type=" + school_type
 				+ ", school_name=" + school_name + ", major=" + major + ", grades=" + grades + ", lisence_type="
 				+ lisence_type + ", awards_name=" + awards_name + ", agency=" + agency + ", pass=" + pass + ", intit="
-				+ intit + ", intxt=" + intxt + ", regdate=" + regdate + ", attachList=" + attachList + "]";
+				+ intit + ", intxt=" + intxt + ", regdate=" + regdate + ", attachList=" + attachList
+				+ ", school_year_start=" + school_year_start + ", school_year_end=" + school_year_end
+				+ ", acquisition_date_start=" + acquisition_date_start + ", acquisition_date_end="
+				+ acquisition_date_end + "]";
 	}
+	
+	
+	
 	
 
 	

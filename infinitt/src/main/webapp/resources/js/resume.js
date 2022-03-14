@@ -32,6 +32,8 @@ $(document).ready(function(){
         }
       } );
 
+	
+	
       $( function() {
         var dateFormat = "yy/mm",
           from = $( "#from2" )
@@ -63,6 +65,8 @@ $(document).ready(function(){
           return date;
         }
       } );
+      
+      
 	
 //	//bno값
 //	let bno = $("#bno").html();
@@ -98,8 +102,13 @@ $(document).ready(function(){
 		
 		let str="";
 		
-		str+="<tr><td class='delete_lisence'>X</td>"
-		str+="<td class='lineup_center'><p><input type='text' id='datepicker' name ='acquisition_date'></p></td>"
+		str+="<tr>"
+		str+="<td class='lineup_center'><p>"
+		str+="<label for='from2' ></label>"
+		str+="<input type='text' id='from2' name='acquisition_date_start' style='width : 80px;' class='hasDatepicker'>"
+		str+="<label for='to2'>~</label>"
+		str+="<input type='text' id='to2' name='acquisition_date_end' style='width : 80px;' class='hasDatepicker'>"
+		str+="</p> </td>"
 		str+="<td class='lineup_center'>"
 		str+="<select name='lisence_type' id='lisence_type'>"
 		str+="<option value='자격증/면허증'>자격증/면허증</option>"
@@ -115,7 +124,7 @@ $(document).ready(function(){
 		str+="<option value='2차 합격'>2차 합격</option>"
 		str+="<option value='최종 합격'>최종 합격</option>"
 		str+="</select>"
-		str+="</td></tr>"
+		str+="</td><td class='delete_lisence'>X</td></tr>"
 		$(".section_license tbody").append(str);
 
 		

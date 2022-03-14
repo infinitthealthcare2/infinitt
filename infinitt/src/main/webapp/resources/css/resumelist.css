@@ -95,3 +95,24 @@ img{
 .write{
 	border: none;
 }
+
+#search{
+	width: 80px;
+    height: 40px;
+    line-height: 1px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid #ffc107;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    color: #ffc107;
+    background-color: #fff;
+	
+}
+
+#search:hover{
+	color: #000;
+    background-color: #ffc107;
+	
+}

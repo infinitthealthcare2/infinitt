@@ -101,8 +101,10 @@
 
         </div><!--.container-->
         
-        
-     <div id="modal" class="modal-overlay">
+
+    </div>
+    
+    <div id="modal" class="modal-overlay">
         <div class="modal-window">
             <div class="title">
                 <h2>List</h2>
@@ -122,8 +124,6 @@
             </ul>
         </div>
     </div><!--.modal-->
-
-    </div>
 
 
 </body>

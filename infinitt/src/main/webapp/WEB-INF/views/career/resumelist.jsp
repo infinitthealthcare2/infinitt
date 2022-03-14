@@ -42,7 +42,7 @@
 			<img alt="" src="..\resources\img\light_img_infinitt_ci.png">
 		</div>
 		
-		<form id="actionForm" action="/infinitt/news/news" method="get">
+		<form id="actionForm" action="/infinitt/career/resumelist" method="get">
 			<div class="form-control border-0 small position-relative" style="height:50px">
 				<div class="position-absolute bottom-0 end-0">
 					<input type="hidden" name="pageNum" value="${pageMaker.cri.pageNum}">
@@ -54,7 +54,7 @@
 							<option value="W"<c:if test="${pageMaker.cri.search=='D'}"> selected </c:if>>지원부서</option>
 					</select>
 					<input type="text" name="keyword" value="${pageMaker.cri.keyword}">
-					<input type="submit" value="검색" class="btn btn-warning opacity-75" id="search">
+					<input type="submit" value="검색" class="btn" id="search">
 				</div>
 			</div>
 		</form>
@@ -92,7 +92,7 @@
 			
 		</table>
 		
-		<form id="actionForm" action="/infinitt/resume/resumelist" method="get">
+		<form id="actionForm" action="/infinitt/career/resumelist" method="get">
 			<div id="dataTable_paginate" aria-label="Page navigation example">
 				<ul class="pagination justify-content-center">
 					<c:if test="${pageMaker.prev}">

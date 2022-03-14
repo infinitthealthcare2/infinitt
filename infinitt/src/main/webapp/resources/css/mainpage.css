@@ -11804,7 +11804,9 @@ img {
 
 .exhibitions_blogWrap a:hover {
   color: #ecb807;
+
 }
+
 
 .exhibitions_blogWrap .bwrap_tag{
   height: 300px;
@@ -11866,9 +11868,7 @@ img {
 	
 	width : 100px;
 	height : 40px;
-	
-	background-color: white;
-	border : 1px solid white;
+	line-height : 40px;
 	
 	position : absolute;
 	top : 0;
@@ -11876,25 +11876,27 @@ img {
 	
 }
 
-.moreNews:hover .moreNews{
-	
-	color: #000;
-    background-color: #ffc107;
-    border-color: #ffc107;
-	
-}
-
 .moreNews a{
-	
-	display : block;
+	display : inline-block;
 	
 	width : 100%;
 	height : 100%;
 	
-	color : #222;
-	font-size : 20px;
+	border : 1px solid #ffc107;
+	border-radius : 20px;
+	
+	background-color: #fff;
+	color: #ffc107;
 	
 }
+
+.moreNews a:hover{
+	
+	color: #000;
+    background-color: #ffc107;
+	
+}
+
 
 
 .news_table_list{

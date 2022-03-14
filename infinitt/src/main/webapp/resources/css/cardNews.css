@@ -7,6 +7,8 @@
 
 html{
 	background-color : rgba(38, 38, 38, 0.7);
+	overflow: hidden;
+
 }
 
 body{
@@ -378,9 +380,9 @@ img{
     width: 50px;
     height: 50px;
 
-    background-color: #ffca2c;
+    /* background-color: #555; */
     
-    border : none;
+    border : 1px solid #ffca2c;
     border-radius : 10px;
     
     padding : 4px 3px 0 0;
@@ -390,6 +392,20 @@ img{
 
 .F_btn img{
     width: 80%;
+
+}
+
+.F_btn:hover{
+    width: 50px;
+    height: 50px;
+
+    background-color: #ffca2c;
+    
+    border : 1px solid #ffca2c;
+    border-radius : 10px;
+    
+    padding : 4px 3px 0 0;
+    box-sizing : border-box;
 
 }
 
@@ -413,7 +429,11 @@ img{
             -webkit-backdrop-filter: blur(1.5px);
             border-radius: 10px;
             border: 1px solid rgba(255, 255, 255, 0.18);
+            
+            
+
  }
+ 
 #modal .modal-window {
      /* background: rgba( 255, 255, 0, 0.4 ); */
      background: rgba( 255, 202, 44, 0.4 );
@@ -428,6 +448,8 @@ img{
      position: relative;
      top: -100px;
      padding: 10px;
+    
+
 }
 
 #modal .title {

@@ -85,6 +85,12 @@ svg:not(:root).svg-inline--fa {
     height: 100%;
   }
   
+ .welcome p{
+
+	margin-left : 20px;
+
+ }
+  
 .welcome li{
 
     width: 150px;

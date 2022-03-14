@@ -54,7 +54,7 @@
 							<option value="W"<c:if test="${pageMaker.cri.search=='D'}"> selected </c:if>>지원부서</option>
 					</select>
 					<input type="text" name="keyword" value="${pageMaker.cri.keyword}">
-					<input type="submit" value="검색" class="btn btn-warning opacity-75" id="search">
+					<input type="submit" value="검색" class="btn" id="search">
 				</div>
 			</div>
 		</form>

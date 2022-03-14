@@ -9,8 +9,8 @@
 		<selectKey keyProperty="rbno" order="BEFORE" resultType="int">
   			select ifnull (MAX(rbno), 0 )+1 from resume
   		</selectKey>
-  		insert into resume(title,name,birth,gender,email,tel,career,pay,region,school_type,school_name,major,grades,lisence_type,awards_name,agency,pass,intit,intxt, job)
-		values(#{title},#{name},#{birth},#{gender},#{email},#{tel},#{career},#{pay},#{region},#{school_type},#{school_name},#{major},#{grades},#{lisence_type},#{awards_name},#{agency},#{pass},#{intit},#{intxt}, #{job})
+  		insert into resume(title,name,birth,gender,email,tel,career,pay,region,school_type,school_name,major,grades,lisence_type,awards_name,agency,pass,intit,intxt, job, school_year_start, school_year_end, acquisition_date_start, acquisition_date_end)
+		values(#{title},#{name},#{birth},#{gender},#{email},#{tel},#{career},#{pay},#{region},#{school_type},#{school_name},#{major},#{grades},#{lisence_type},#{awards_name},#{agency},#{pass},#{intit},#{intxt}, #{job}, #{school_year_start}, #{school_year_end}, #{acquisition_date_start}, #{acquisition_date_end})
 		
 		<!-- insert into resume(intit,intxt)
 		values(#{intit},#{intxt}) -->

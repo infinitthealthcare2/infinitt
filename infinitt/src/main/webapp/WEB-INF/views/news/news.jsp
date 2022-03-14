@@ -55,7 +55,8 @@
 							<option value="TCW"<c:if test="${pageMaker.cri.search=='TCW'}"> selected </c:if>>제목 + 내용 + 작성자</option>
 					</select>
 					<input type="text" name="keyword" value="${pageMaker.cri.keyword}">
-					<input type="submit" value="검색" class="btn btn-warning opacity-75" id="search">
+					<!--class ="btn-warning  opacity-75" 제거  -->
+					<input type="submit" value="검색" class="btn" id="search">
 				</div>
 			</div>
 		</form>

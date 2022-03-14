@@ -33,6 +33,8 @@
 
 
 <div class="wrap">
+	
+	<button class="prev"><a href="/infinitt/career/resumelist">뒤로가기</a></button>
 
     <h2 class="mainTitle">이력서</h2>
     
@@ -160,7 +162,7 @@
                 <!-- <caption>개인 학력</caption> -->
 
                 <colgroup>
-                    <col width="19%">
+                    <col width="20%">
                     <col width="20%">
                     <col width="*">
                     <col width="20%">
@@ -181,7 +183,12 @@
                     <tr>
                         <td class="lineup_center" rowspan="1">
                         	<!-- school_year -->
-                            <!-- 2013.03 ~ 2016.11 -->                        
+                        	<p>
+                        		<label for="from" ></label>
+                                <input type="text" id="from" name="school_year_start" style="width : 80px;" value="${resume_m.school_year_start}" disabled>
+                                <label for="to">~</label>
+                                <input type="text" id="to" name="school_year_end" style="width : 80px;" value="${resume_m.school_year_end}" disabled>
+                        	</p>                       
                         </td>
                         <td class="lineup_center" rowspan="1">
                         	<input type="text" name="school_type" value="${resume_m.school_type}" disabled>
@@ -231,7 +238,7 @@
             <table class="inpart_view" cellspacing="0" cellpadding="0">
                 <!-- <caption>자격증/어학/수상내역</caption> -->
                 <colgroup>
-                    <col width="13%">
+                    <col width="20%">
                     <col width="16%">
                     <col width="*">
                     <col width="24%">
@@ -255,7 +262,14 @@
                 	<c:forEach items="${resume_lisence}" var="resume_lisence">
                     <tr>
 
-                        <td class="lineup_center" name="acquisition_date">2020.10 </td>
+                        <td class="lineup_center">
+                        	<p>
+                        		<label for="from2" ></label>
+                                <input type="text" id="from2" name="acquisition_date_start" style="width : 80px;" value="${resume_lisence.acquisition_date_start}" disabled>
+                                <label for="to2">~</label>
+                                <input type="text" id="to2" name="acquisition_date_end" style="width : 80px;" value="${resume_lisence.acquisition_date_end}" disabled>
+                        	</p> 
+                        </td>
                         <td class="lineup_center">
                         	<input type="text" name="lisence_type" value="${resume_lisence.lisence_type}" disabled>
                         	<!-- <select name="lisence_type" id="lisence_type">

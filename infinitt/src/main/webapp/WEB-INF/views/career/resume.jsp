@@ -44,7 +44,7 @@
 <form id="resume" method="post">
 	<%-- <input type="hidden" name=job value="${job}"> --%>
 	
-	<button><a href="/infinitt/career/career">뒤로가기</a></button>
+	<button class="prev"><a href="/infinitt/career/career">뒤로가기</a></button>
     <h2 class="mainTitle">이력서</h2>
     
     
@@ -170,7 +170,7 @@
                 <!-- <caption>개인 학력</caption> -->
 
                 <colgroup>
-                    <col width="19%">
+                    <col width="20%">
                     <col width="20%">
                     <col width="*">
                     <col width="20%">
@@ -194,9 +194,9 @@
                         	<!-- school_year -->
                         	<p>
                         		<label for="from" ></label>
-                                <input type="text" id="from" name="school_year">
+                                <input type="text" id="from" name="school_year_start" style="width : 80px;">
                                 <label for="to">~</label>
-                                <input type="text" id="to" name="school_year">
+                                <input type="text" id="to" name="school_year_end" style="width : 80px;">
                         	</p>                      
                         </td>
                         <td class="lineup_center" rowspan="1">
@@ -247,7 +247,7 @@
             <table class="inpart_view" cellspacing="0" cellpadding="0">
                 <!-- <caption>자격증/어학/수상내역</caption> -->
                 <colgroup>
-                    <col width="13%">
+                    <col width="20%">
                     <col width="16%">
                     <col width="*">
                     <col width="24%">
@@ -272,9 +272,9 @@
                         <td class="lineup_center">
                         	<p>
                         		<label for="from2" ></label>
-                                <input type="text" id="from2" name="acquisition_date">
+                                <input type="text" id="from2" name="acquisition_date_start" style="width : 80px;">
                                 <label for="to2">~</label>
-                                <input type="text" id="to2" name="acquisition_date" >
+                                <input type="text" id="to2" name="acquisition_date_end" style="width : 80px;">
                         	</p> 
                         </td>
                         <td class="lineup_center">

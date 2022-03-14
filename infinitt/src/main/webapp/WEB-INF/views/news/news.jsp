@@ -89,7 +89,7 @@
 		
 		<c:if test="${login!=null}">
         	<button class="text-end write">
-				<a href="/infinitt/news/newswrite"  class="btn btn-outline-warning" id="writeList">글쓰기</a>
+				<a href="/infinitt/news/newswrite"  class="btn" id="writeList">글쓰기</a>
 			</button>
        	</c:if>
 		

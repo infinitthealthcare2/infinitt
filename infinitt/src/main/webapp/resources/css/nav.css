@@ -84,14 +84,18 @@ svg:not(:root).svg-inline--fa {
   
     height: 100%;
   }
-  
- .welcome p{
-
-	margin-left : 20px;
-
+ 
+ .welcome{
+ 	padding-left : 45px;
+ 	box-sizing : border-box;
  }
-  
-.welcome li{
+ 
+ .welcome .wel_login{
+	 padding-left : 5px;
+ 	box-sizing : border-box;
+ }
+
+.welcome .login_btn{
 
     width: 150px;
     height : 30px;
@@ -102,12 +106,10 @@ svg:not(:root).svg-inline--fa {
     
     color: #333;
 	background: #FFD11F;
-	
-	margin-left : 15px;
 
   }
   
-.welcome li a{
+.welcome .login_btn a{
 	display: block;
 	text-align: center;
 }

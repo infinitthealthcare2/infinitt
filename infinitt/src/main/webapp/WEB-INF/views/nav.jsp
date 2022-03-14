@@ -20,15 +20,15 @@
 			       <div class="welcome">
 			       
 			       		<c:if test="${login != null}">
-							<p>${login.id}님 환영 합니다.</p>
-							<li>
+							<p class="wel_login">${login.id}님 환영 합니다.</p>
+							<p class="login_btn">
 								<a id="logout" onclick="location.href='/infinitt/logout'">logout</a>
-							</li>
+							</p>
 						</c:if>
 						<c:if test="${login == null}">
-							<li>
+							<p class="login_btn">
 								<a href="/infinitt/login">login</a>
-							</li>
+							</p>
 						</c:if>
 						
 					</div>

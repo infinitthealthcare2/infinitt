@@ -162,11 +162,11 @@
                 <!-- <caption>개인 학력</caption> -->
 
                 <colgroup>
-                    <col width="20%">
-                    <col width="20%">
+                    <col width="30%">
+                    <col width="15%">
                     <col width="*">
                     <col width="20%">
-                    <col width="25%">
+                    <col width="15%">
                 </colgroup>
 
                 <thead>
@@ -185,9 +185,9 @@
                         	<!-- school_year -->
                         	<p>
                         		<label for="from" ></label>
-                                <input type="text" id="from" name="school_year_start" style="width : 80px;" value="${resume_m.school_year_start}" disabled>
+                                <input type="text" id="from" name="school_year_start" style="width : 100px;" value="${resume_m.school_year_start}" disabled>
                                 <label for="to">~</label>
-                                <input type="text" id="to" name="school_year_end" style="width : 80px;" value="${resume_m.school_year_end}" disabled>
+                                <input type="text" id="to" name="school_year_end" style="width : 100px;" value="${resume_m.school_year_end}" disabled>
                         	</p>                       
                         </td>
                         <td class="lineup_center" rowspan="1">
@@ -205,7 +205,7 @@
                         <td>
                             <input type="text" name="major" value="${resume_m.major}" disabled>                                                                                                               
                         </td>
-                        <td class="lineup_center"><input type="text" name="grades" value="${resume_m.grades}" disabled> / 4.5</td>
+                        <td class="lineup_center"><input type="text" name="grades" value="${resume_m.grades}" class="score" disabled> / 4.5</td>
                     </tr>
                                              
                 </tbody>
@@ -238,11 +238,11 @@
             <table class="inpart_view" cellspacing="0" cellpadding="0">
                 <!-- <caption>자격증/어학/수상내역</caption> -->
                 <colgroup>
-                    <col width="20%">
-                    <col width="16%">
+                    <col width="30%">
+                    <col width="15%">
                     <col width="*">
-                    <col width="24%">
-                    <col width="11%">
+                    <col width="20%">
+                    <col width="15%">
                 </colgroup>
                 <thead>
                 
@@ -265,9 +265,9 @@
                         <td class="lineup_center">
                         	<p>
                         		<label for="from2" ></label>
-                                <input type="text" id="from2" name="acquisition_date_start" style="width : 80px;" value="${resume_lisence.acquisition_date_start}" disabled>
+                                <input type="text" id="from2" name="acquisition_date_start" style="width : 100px;" value="${resume_lisence.acquisition_date_start}" disabled>
                                 <label for="to2">~</label>
-                                <input type="text" id="to2" name="acquisition_date_end" style="width : 80px;" value="${resume_lisence.acquisition_date_end}" disabled>
+                                <input type="text" id="to2" name="acquisition_date_end" style="width : 100px;" value="${resume_lisence.acquisition_date_end}" disabled>
                         	</p> 
                         </td>
                         <td class="lineup_center">
@@ -279,11 +279,11 @@
                         	</select> -->
                         </td>
                         <td>
-                        	<input type="text" name="awards_name" value="${resume_lisence.awards_name}" disabled>  
+                        	<input type="text" name="awards_name" value="${resume_lisence.awards_name}" class="lisence" disabled>  
                         </td>
-                        <td><input type="text" name="agency" value="${resume_lisence.agency}" disabled> </td>
+                        <td><input type="text" name="agency" value="${resume_lisence.agency}" class="lisence" disabled> </td>
                         <td class="lineup_center">
-                        	<input type="text" name="pass" value="${resume_lisence.pass}" disabled>
+                        	<input type="text" name="pass" value="${resume_lisence.pass}" id="pass" disabled>
                         	<!-- <select name="pass" id="pass">
 	                            <option value="1차 합격">1차 합격</option>
 	                            <option value="2차 합격">2차 합격</option>

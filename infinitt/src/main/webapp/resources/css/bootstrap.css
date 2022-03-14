@@ -3354,10 +3354,10 @@ textarea.form-control-lg {
   background-color: transparent;
 }
 
-.btn-outline-warning {
+/* .btn-outline-warning {
   color: #ffc107;
   border-color: #ffc107;
-}
+} */
 .btn-outline-warning:hover {
   color: #000;
   background-color: #ffc107;

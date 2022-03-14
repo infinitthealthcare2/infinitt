@@ -18,22 +18,12 @@
                         <a href="https://www.infinitt.com/contents/content.php?url=ethics" target="_blank">윤리강령</a><a href="https://www.infinitt.com/contents/content.php?url=usernotice" target="_blank">규제자유특구이용자고지사항</a>
                         <a href="https://737.co.kr/" target="_self">원격 지원</a>
                         
-<<<<<<< HEAD
                     </div><!-- .footerLink -->
-=======
-                    </div>
->>>>>>> branch 'master' of https://github.com/infinitthealthcare2/infinitt.git
-                    
-<<<<<<< HEAD
-                    <p>㈜인피니트헬스케어 서울특별시 구로구 디지털로 34길 27, 대륭포스트타워 3차 12층
-                        02-2194-1600<br>©2002-2020 INFINITT Healthcare Co., Ltd.</p>
-=======
-                    		<p>		
-	                    		㈜인피니트헬스케어
-	                        	서울특별시 구로구 디지털로 34길 27, 대륭포스트타워 3차 12층
-	                        	02-2194-1600<br>©2002-2020 INFINITT Healthcare Co., Ltd.
-                        	</p>
->>>>>>> branch 'master' of https://github.com/infinitthealthcare2/infinitt.git
+			          <p>		
+                   		㈜인피니트헬스케어
+                       	서울특별시 구로구 디지털로 34길 27, 대륭포스트타워 3차 12층
+                       	02-2194-1600<br>©2002-2020 INFINITT Healthcare Co., Ltd.
+                     </p>
                         
                         <!-- <div class="footer_sns">
                             <a href="https://www.facebook.com/InfinittHealthcare/" target="_blank"><img src="/pub/uploads/foot_set/803cfd87e07a6b1198eeb461cc89ce70.png" alt="facebook"></a>
@@ -59,10 +49,4 @@
                 </ul> -->
                 <p class="text-muted small mb-0">Copyright &copy; Your Website 2021</p>
             </div>
-            
-            
-            
-            
-            
-            
         </footer>

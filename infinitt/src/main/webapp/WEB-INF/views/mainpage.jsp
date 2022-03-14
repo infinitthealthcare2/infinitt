@@ -353,7 +353,7 @@
                     <table>
                     <colgroup>
                         <col style="width:92%;">
-                        <col style="width:8%;">
+                        <%-- <col style="width:8%;"> --%>
                     </colgroup>
                     <thead>
                         <tr>

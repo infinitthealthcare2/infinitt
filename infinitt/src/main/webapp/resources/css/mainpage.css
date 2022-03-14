@@ -128,105 +128,6 @@ img{
 } */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ========================================================================================================== */
 /*!
 * Start Bootstrap - Stylish Portfolio v6.0.4 (https://startbootstrap.com/theme/stylish-portfolio)
@@ -539,6 +440,7 @@ svg {
 table {
   caption-side: bottom;
   border-collapse: collapse;
+  margin: 0 auto;
 }
 
 caption {
@@ -562,6 +464,7 @@ th {
   border-color: inherit;
   border-style: solid;
   border-width: 0;
+  border-radius: 3px;
 }
 
 label {
@@ -7819,7 +7722,7 @@ textarea.form-control-lg {
 
 .text-center {
   text-align: center !important;
-  padding-left : 5px;
+  padding-right : 10px;
   box-sizing : border-box;
 }
 
@@ -11900,7 +11803,7 @@ img {
 
 
 .news_table_list{
-	margin-left : 95px;
+	/* margin-left : 95px; */
 	
 	/* padding-top : 60px;
 	box-sizing : border-box; */

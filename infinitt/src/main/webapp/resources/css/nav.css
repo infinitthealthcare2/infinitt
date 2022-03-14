@@ -105,33 +105,41 @@ svg:not(:root).svg-inline--fa {
 	
 	margin-left : 15px;
 
-  }
+}
+  
+  
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
   
 .welcome li a{
 	display: block;
 	text-align: center;
+	cursor: pointer;
+}
+
+.welcome li a:hover {
+	text-decoration: none;
+	color: #fff;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+}
+
+.welcome li #logout:hover {
+	text-decoration: none;
+	color: #fff;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
 }
 
 
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-
-
-  
 .sidebar-nav li.sidebar-nav-item a {
 	display: block;
 	text-decoration: none;
 	/* color: #fff; */
 	color: #222;
 	padding: 15px;
-}
-
-.sidebar-nav li a:hover {
-	text-decoration: none;
-	color: #fff;
-	background: rgba(255, 255, 255, 0.2);
 }
 
 .sidebar-nav li a:active,
@@ -172,59 +180,19 @@ li {
 	margin : 10px 0;
 }
 
+.welcome p{
+	margin: 1rem 10px;
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 20px;
+}
 
 .rounded {
 	border-radius: 0.25rem !important;
 }
 
-  
-  
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
  .nav {
   display: flex;

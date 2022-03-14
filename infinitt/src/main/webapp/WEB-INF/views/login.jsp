@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="resources/css/login.css">
     <!-- Custom scripts for all pages-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script> -->
 <title>Insert title here</title>
 </head>
 <body>
@@ -37,7 +37,7 @@
                                         <div class="text-center">
                                             <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
                                         </div>
-                                        <form action="/infinitt/login" method="post" class="user">
+                                        <form action="/infinitt/login" method="post" class="user" target="_self">
                                             <div class="form-group">
                                                 <input name = "id" type="text" class="form-control form-control-user"
                                                     id="loginid" aria-describedby="emailHelp"
@@ -47,14 +47,14 @@
                                                 <input name="password" type="password" class="form-control form-control-user"
                                                     id="loginpw" placeholder="Password">
                                             </div>
-                                            <div class="form-group">
+                                            <!-- <div class="form-group">
                                                 <div class="custom-control custom-checkbox small">
                                                     <input type="checkbox" class="custom-control-input" id="customCheck">
                                                     <label class="custom-control-label" for="customCheck">
                                                     	Remember Me
                                                     </label>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                             <input type="submit" class="btn btn-primary btn-user btn-block" value="Login" id="dologin">
                                             <!-- <a href="index.html" class="btn btn-primary btn-user btn-block">
                                                 Login
@@ -72,7 +72,7 @@
     
         </div>
     </div>
-    <script type="text/javascript" src="resources/js/sb-admin-2.js"></script>
+   <!--  <script type="text/javascript" src="resources/js/sb-admin-2.js"></script> -->
     <script type="text/javascript" src="resources/js/login.js"></script>
 </body>
 </html>

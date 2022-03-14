@@ -98,7 +98,8 @@ a{
 
 
 .wrap{
-    width: 1800px;
+    width: 100%;
+   
     margin: 0 auto;
     
     padding : 150px 0 500px 0;
@@ -507,3 +508,9 @@ a{
 
 
 }
+
+/* @media (max-width: 1400px){
+	.wrap{
+		 width: 1300px;
+	}
+} */

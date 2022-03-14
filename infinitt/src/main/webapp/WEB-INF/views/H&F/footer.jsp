@@ -18,10 +18,9 @@
                         <a href="https://www.infinitt.com/contents/content.php?url=ethics" target="_blank">윤리강령</a><a href="https://www.infinitt.com/contents/content.php?url=usernotice" target="_blank">규제자유특구 이용자 고지사항</a>
                         <a href="https://737.co.kr/" target="_self">원격 지원</a>
                         
-                                            </div>
+                    </div><!-- .footerLink -->
                     
-                    <p>㈜인피니트헬스케어
-                        서울특별시 구로구 디지털로 34길 27, 대륭포스트타워 3차 12층
+                    <p>㈜인피니트헬스케어 서울특별시 구로구 디지털로 34길 27, 대륭포스트타워 3차 12층
                         02-2194-1600<br>©2002-2020 INFINITT Healthcare Co., Ltd.</p>
                         
                         <!-- <div class="footer_sns">
@@ -30,8 +29,8 @@
                             <a href="https://www.linkedin.com/company/infinitt-healthcare" target="_blank"><img src="/pub/uploads/foot_set/2bd7157e55945c900250c092c38bdf5b.png" alt="facebook"></a>
                             <a href="https://blog.naver.com/infinitt-healthcare" target="_blank"><img src="/pub/uploads/foot_set/6b7c8436d22092124d31825dc4b35d79.png" alt="facebook"></a>
                         </div> -->
-                    </div>
-            </div>
+                </div><!-- .inner -->
+           </div>
 
 
             <div class="px-4 px-lg-5">

@@ -19,6 +19,7 @@ $(document).ready(function(){
 		}
 		return true;
 	}
+	
 	let formObj = $("form[role='form']")// form태그가 있어 그걸 가지고옴으로써 밑에 있는 가상의form태그의 역활을 한다.
 	//글쓰기 버튼을 클릭하면
 	$("input[type='submit']").on("click",function(e){

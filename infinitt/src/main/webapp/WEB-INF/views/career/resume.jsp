@@ -41,7 +41,7 @@
 
 <div class="wrap">
 
-<form id="resume" method="post">
+<form id="resume" method="post" role='form'>
 	<%-- <input type="hidden" name=job value="${job}"> --%>
 	
 	<button class="prev"><a href="/infinitt/career/career">뒤로가기</a></button>
@@ -144,7 +144,9 @@
                                                         
                             </div>
                         </div> -->
-                        <input type="file" name="portfolio" id="portfolio">
+                        
+                        <!-- <input type="file" name="portfolio" id="portfolio"> -->
+                        <input type="file" name="uploadFile" id="portfolio">
                     </li>
                    <!-- 파일 이력서 -->
                 </ul>
@@ -337,7 +339,7 @@
 
 
 
-		<button type="submit" class="submitBtn">제출하기</button>
+		<input type="submit" class="submitBtn" value="제출하기">
 	
 	</form>
 	

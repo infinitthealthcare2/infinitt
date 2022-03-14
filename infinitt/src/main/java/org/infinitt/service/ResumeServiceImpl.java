@@ -21,14 +21,14 @@ public class ResumeServiceImpl implements ResumeService{
 	/*@Transactional*/
 	public void resume(ResumeDTO resume) {
 		
-		System.out.println("resume service = " + resume);
+		System.out.println("resume attachList service = " + resume.getAttachList());
 		
 		rmapper.resume(resume);
 		
-		/*resume.getAttachList().forEach(attach->{
+		resume.getAttachList().forEach(attach->{
 			attach.setRbno(resume.getRbno());
 			amapper.rinsert(attach);
-		});*/
+		});
 	}
 	
 	public ArrayList<ResumeDTO> resumelist(Criteria cri){

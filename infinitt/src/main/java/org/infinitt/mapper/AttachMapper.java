@@ -9,7 +9,7 @@ public interface AttachMapper {
 	
 	public void insert1(AttachFileDTO news);
 	
-	public void rinsert(AttachFileDTO news);
+	public void rinsert(AttachFileDTO resume);
 	
 	public void delete(AttachFileDTO aboard);
 	/*public void ainsert(AttachFileDTO aboard);*/

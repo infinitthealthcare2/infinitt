@@ -7,14 +7,6 @@ $(document).ready(function(){
 	    //window.scrollTop();
 	    window.scrollTo(0, document.body.scrollHeight, "smooth");
 	    
-	  }, 32);
-
-      
-
-
-
-    
+	  },80);
 
 })
-
-

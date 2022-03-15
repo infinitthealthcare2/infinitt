@@ -47,7 +47,7 @@ svg:not(:root).svg-inline--fa {
 #sidebar-wrapper {
   position: fixed;
   z-index: 100;
-  right: -1px;
+  right: -10px;
   width: 250px;
   height: 100%;
   transition: all 0.4s ease 0s;
@@ -130,6 +130,11 @@ li{
 	padding: 15px;
 }
 
+.sidebar-nav li.sidebar-nav-item a:hover{
+	background: rgba(52, 58, 64, 0.1);
+	color: #fff;
+}
+
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
 	text-decoration: none;
@@ -190,7 +195,7 @@ li{
   list-style: none;
 }
 
-.nav-link {
+/* .nav-link {
   display: block;
   padding: 0.5rem 1rem;
   color: #1D809F;
@@ -209,9 +214,9 @@ li{
   color: #6c757d;
   pointer-events: none;
   cursor: default;
-}
+} */
 
-.nav-tabs {
+/* .nav-tabs {
   border-bottom: 1px solid #dee2e6;
 }
 .nav-tabs .nav-link {
@@ -370,7 +375,7 @@ li{
   max-height: var(--bs-scroll-height, 75vh);
   overflow-y: auto;
 }
-
+ */
 
 
 

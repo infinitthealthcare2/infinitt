@@ -12,7 +12,6 @@
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
 	                <a href="#page-top">TEAM INFINITT</a><br>
-	                
                 </li>
                 
                 <div class="member" method="POST">
@@ -30,26 +29,34 @@
 								<a href="/infinitt/login">login</a>
 							</li>
 						</c:if>
-						
 					</div>
 			    </div><!--.member-->
                 
                 <!-- <button><a href="/infinitt/login">login</a></button> -->
                  
                 
-                <li class="sidebar-nav-item"><a href="/infinitt/mainpage">Home</a></li>
-                <li class="sidebar-nav-item"><a href=/infinitt/news/news>News</a></li>
-                <li class="sidebar-nav-item"><a href="/infinitt/essay/essay">essay</a></li>
-                
+                <li class="sidebar-nav-item">
+                	<a href="/infinitt/mainpage">Home</a>
+                </li>
+                <li class="sidebar-nav-item">
+                	<a href=/infinitt/news/news>News</a>
+                </li>
+                <li class="sidebar-nav-item">
+                	<a href="/infinitt/essay/essay">essay</a>
+                </li>
                 <c:if test="${login == null}">
-					<li class="sidebar-nav-item"><a href="/infinitt/career/career">Career</a></li>
+					<li class="sidebar-nav-item">
+						<a href="/infinitt/career/career">Career</a>
+					</li>
 				</c:if>
 				<c:if test="${login != null}">
-					<li class="sidebar-nav-item"><a href="/infinitt/career/resumelist">Resume</a></li>
+					<li class="sidebar-nav-item">
+						<a href="/infinitt/career/resumelist">Resume</a>
+					</li>
 				</c:if>
-                
-                
-                <li class="sidebar-nav-item"><a href="/infinitt/aboutus">About Us</a></li>
+                <li class="sidebar-nav-item">
+                	<a href="/infinitt/aboutus">About Us</a>
+                </li>
                 
                 <!-- <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
                 <li class="sidebar-nav-item"><a href="#contact">Contact</a></li> -->

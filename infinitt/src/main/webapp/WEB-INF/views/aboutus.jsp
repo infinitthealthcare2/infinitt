@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="./resources/css/aboutus.css">
 
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="./resources/js/aboutus.js"></script>
+    
 </head>
-<body>
+<body><!--  onload="myScr()" -->
 
 	<div class="prevPage">
 		<a href="/infinitt/mainpage">
@@ -32,7 +32,8 @@
 
         <div class="aboutus aboutus1">
 
-            <div id="goal" class="section_radiology section_story goal" style="background:url(/pub/uploads/goal/459d9b9f43914dbf1802a9bf9f5862cf.png) no-repeat center top;">
+            <div id="goal" class="section_radiology section_story goal" >
+            <!-- style="background:url(/pub/uploads/goal/459d9b9f43914dbf1802a9bf9f5862cf.png) no-repeat center top;" -->
                 <p class="title">인피니트 Goal</p>
 
                 <div class="goal_box">
@@ -63,7 +64,8 @@
 
         <div class="aboutus aboutus3">
 
-            <div id="brand" class="section_radiology section_brand brand" style="background:url(/pub/uploads/brand/f50191e76b0287583e06feece7e4fb98.png) no-repeat center top">
+            <div id="brand" class="section_radiology section_brand brand">
+            <!-- style="background:url(/pub/uploads/brand/f50191e76b0287583e06feece7e4fb98.png) no-repeat center top" -->
                 <p class="title">인피니트 Highlights</p>
                 <div class="goal_box">
                     <p>글로벌 헬스케어 산업 평가기관인 KLAS가 매년 시상하는<br>
@@ -106,7 +108,7 @@
                     <div class="inner">
                         <p class="title">인피니트 CI</p>
                         <p>인피니트의 비전과 철학을 담아 전 구성원, <br>
-                            고객 및 이해관계자와 소통하고 있습니다.</p>
+                                                          고객 및 이해관계자와 소통하고 있습니다.</p>
                         <div class="ci_img">
                             <img src="./resources/img/인피니트_CI.png" alt="CI"> 
                             <!-- <p>사용하실 때는 별도의 변형 없이<br>원본 그대로 사용해주시기 바랍니다.</p> -->
@@ -114,10 +116,11 @@
                         </div><br>
                         <div class="ci_txt">
                             <p>무한대 라인의 로고는 인류 건강에 이바지하지 하기 위해 <br>
-                                	끊임없이 전진하는 인피니트의 열정을 상징합니다.  <br>
-                                <br>
-                                	청색은 고객중심의 경영철학을 바탕으로 고객이 신뢰할 수 있는<br>
-                                	파트너가 되고자 하는 인피니트 전 구성원의 다짐을 담고 있습니다.</p>
+                               	끊임없이 전진하는 인피니트의 열정을 상징합니다.  <br>
+                               <br>
+                               	청색은 고객중심의 경영철학을 바탕으로 고객이 신뢰할 수 있는<br>
+                               	파트너가 되고자 하는 인피니트 전 구성원의 다짐을 담고 있습니다.
+                           </p>
                         </div>
                     </div>
                 </div>
@@ -258,9 +261,7 @@
 
         </div>
 
-
-
     </div>
-    
+    <script src="./resources/js/aboutus.js"></script>
 </body>
 </html>

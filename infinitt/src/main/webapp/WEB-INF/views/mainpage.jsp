@@ -350,25 +350,27 @@
                 </div>
                 
                 <div class="news_table_list" id="news_table_list">
-                    <table>
-                    <colgroup>
-                        <col style="width:92%;">
-                        <%-- <col style="width:8%;"> --%>
-                    </colgroup>
-                    <thead>
-                        <tr>
-                            <th>제목</th>
-                            <th class="text-center">등록일</th>
-                        </tr>
-                    </thead>
-                    <tbody id="news_area">
-                    	 <c:forEach items= "${news}" var="news" >
-                         <tr>
-                            <td><a href="http://localhost:8080/infinitt/news/newsdetail?nbno=${news.nbno}">${news.title}</a></td>
-                            <td class="text-center">${news.regdate}</td>
-                        </tr>
-                        </c:forEach>
-                    </tbody>
+                    <table class="table">
+	                    <colgroup>
+	                        <col style="width:90%;">
+	                        <col style="width:10%;">
+	                    </colgroup>
+	                    <thead class="table-dark">
+	                        <tr>
+	                            <th>제목</th>
+	                            <th class="text-center">등록일</th>
+	                        </tr>
+	                    </thead>
+	                    <tbody id="news_area">
+	                    	 <c:forEach items= "${news}" var="news" >
+		                         <tr>
+		                            <td class="title">
+		                            	<a href="http://localhost:8080/infinitt/news/newsdetail?nbno=${news.nbno}">${news.title}</a>
+		                            </td>
+		                            <td class="text-center">${news.regdate}</td>
+		                        </tr>
+	                        </c:forEach>
+	                    </tbody>
                     </table>
                     
                     <!-- <div class="pagerWrap" id="news_paging">

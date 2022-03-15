@@ -69,6 +69,8 @@ public class CareerConroller {
 		
 		model.addAttribute("rbno", resume.getRbno());
 		model.addAttribute("resume_m", rservice.resume_m(resume));
+		
+		System.out.println("controller lisence = " + rservice.resume_lisence(rbno));
 		model.addAttribute("resume_lisence", rservice.resume_lisence(rbno));
 	}
 	

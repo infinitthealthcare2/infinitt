@@ -2112,7 +2112,7 @@ progress {
   vertical-align: bottom;
 }
 .table > :not(:first-child) {
-  border-top: 2px solid currentColor;
+  /* border-top: 2px solid currentColor; */
 }
 
 .caption-top {
@@ -2237,15 +2237,15 @@ progress {
 }
 
 .table-dark {
-  --bs-table-bg: #212529;
+  --bs-table-bg: rgba(255, 193, 7,0.7);;
   --bs-table-striped-bg: #2c3034;
   --bs-table-striped-color: #fff;
   --bs-table-active-bg: #373b3e;
   --bs-table-active-color: #fff;
   --bs-table-hover-bg: #323539;
   --bs-table-hover-color: #fff;
-  color: #fff;
-  border-color: #373b3e;
+  color: #000;
+  /* border-color: #373b3e; */
 }
 
 .table-responsive {

@@ -309,7 +309,7 @@ a{
 	
 	/* padding : 60px 0  0 200px; */
 	box-sizing : border-box;
-	padding: 4vw 0 0 11vw;
+	padding: 4vw 0 0 10vw;
 }
 
 .brand_02 .title{
@@ -327,7 +327,18 @@ a{
 	
 }
 
-.brand_02 p{
+.brand_02 .content{
+    color : #fff;
+	/* font-size : 22px;
+	line-height : 35px; */
+	
+    margin-bottom : 20px;
+    font-size: 1.5vw;
+    line-height: 1.7vw;
+
+}
+
+.brand_02 .ci_txt{
     color : #fff;
 	/* font-size : 22px;
 	line-height : 35px; */
@@ -385,7 +396,7 @@ a{
 
 }
 
-#history .h2_wrap p{
+#history .h2_wrap .content{
 	
 	color : #fcf59d;
 	
@@ -395,6 +406,9 @@ a{
    	line-height : 40px; */
 	
 	margin-bottom : 20px;
+	
+	font-size: 1.5vw;
+    line-height: 1.7vw;
     
 
 }

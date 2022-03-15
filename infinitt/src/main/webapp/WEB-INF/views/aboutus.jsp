@@ -107,7 +107,7 @@
                 <div class=" brand_02">
                     <div class="inner">
                         <p class="title">인피니트 CI</p>
-                        <p>인피니트의 비전과 철학을 담아 전 구성원, <br>
+                        <p class="content">인피니트의 비전과 철학을 담아 전 구성원, <br>
                                                           고객 및 이해관계자와 소통하고 있습니다.</p>
                         <div class="ci_img">
                             <img src="./resources/img/인피니트_CI.png" alt="CI"> 
@@ -134,7 +134,7 @@
                 <div class="inner">
                     <div class="h2_wrap">
                         <p class="title">인피니트 History</p>
-                        <p>인피니트가 걸어온 혁신의 스토리를 소개합니다.</p>
+                        <p class="content">인피니트가 걸어온 혁신의 스토리를 소개합니다.</p>
                     </div>
                     <div class="main_title">
                         <span>2002 - 2008</span><br>

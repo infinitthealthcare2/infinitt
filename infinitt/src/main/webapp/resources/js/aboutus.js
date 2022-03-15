@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
 
+
 	setInterval(() => {
 
 	    //window.scrollTo(0, -document.body.scrollHeight, "smooth")
@@ -8,5 +9,7 @@ $(document).ready(function(){
 	    window.scrollTo(0, document.body.scrollHeight, "smooth");
 	    
 	  },32);
+	
+	
 
 })

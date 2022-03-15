@@ -42,7 +42,6 @@
 <div class="wrap">
 
 <form id="resume" method="post" role='form' enctype="multipart/form-data">
-	<%-- <input type="hidden" name=job value="${job}"> --%>
 	
 	<button class="prev"><a href="/infinitt/career/career">뒤로가기</a></button>
     <h2 class="mainTitle">이력서</h2>
@@ -196,9 +195,9 @@
                         	<!-- school_year -->
                         	<p>
                         		<label for="from" ></label>
-                                <input type="text" id="from" name="school_year_start" style="width : 100px;">
+                                <input type="text" id="school_year_start" name="school_year_start" style="width : 100px;">
                                 <label for="to">~</label>
-                                <input type="text" id="to" name="school_year_end" style="width : 100px;">
+                                <input type="text" id="school_year_end" name="school_year_end" style="width : 100px;">
                         	</p>                      
                         </td>
                         <td class="lineup_center" rowspan="1">
@@ -275,10 +274,11 @@
                     	
                         <td class="lineup_center">
                         	<p>
+                        		<input type='hidden' value='2' class='num'>
                         		<label for="from2" ></label>
-                                <input type="text" id="from2" name="acquisition_date_start" style="width : 100px;">
+                                <input type="text" id="from2" class="acquisition_date" name="acquisition_date_start" style="width : 100px;" randonly>
                                 <label for="to2">~</label>
-                                <input type="text" id="to2" name="acquisition_date_end" style="width : 100px;">
+                                <input type="text" id="to2" class="acquisition_date" name="acquisition_date_end" style="width : 100px;" randonly>
                         	</p> 
                         </td>
                         <td class="lineup_center">

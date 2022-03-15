@@ -72,8 +72,8 @@
                         Best in KLAS: Software &amp; Services의 PACS 부문에서<br>
                         12회 수상하며 글로벌 최고의 PACS 기업으로 자리매김했습니다.<br>
                         <br>
-                        제품 개발 시 고객의 니즈와 피드백을 적극 반영하여<br>
-                        더욱 빠르고 직관적이며 사용하기 쉬운 PACS로 발전시켜 나가고 있습니다.</p>
+                       	 제품 개발 시 고객의 니즈와 피드백을 적극 반영하여<br>
+                            더욱 빠르고 직관적이며 사용하기 쉬운 PACS로 발전시켜 나가고 있습니다.</p>
                     <p class="small">2018~19년 : Community Hospital, Imaging Centers/Ambulatory 부문 Category Leader (1위)<br>
                         2017년 : Community Hospital 부문 Category Leader (1위) <br>
                         2015/16년 : Community Hospital, Imaging Centers/Ambulatory 부문 Category Leader (1위) <br>

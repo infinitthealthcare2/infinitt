@@ -91,12 +91,15 @@ $(document).ready(function(){
 	
 	//acquisition_date
 	
+	
 	$(document).on( "click", ".acquisition_date", function(){
 		
 		$(this).datepicker();
 		
 		
 	})
+	
+	//========
 	
 	/*let ac_num = 0;
 

@@ -142,7 +142,7 @@ a{
 
 .title{
 	font-size : 2.3vw;
-	line-height : 2vw;
+	line-height : 2.5vw;
 }
 
 .goal_box, .ci_txt{
@@ -333,7 +333,7 @@ a{
 	line-height : 35px; */
 	
     margin-bottom : 20px;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     line-height: 1.7vw;
 
 }
@@ -407,7 +407,7 @@ a{
 	
 	margin-bottom : 20px;
 	
-	font-size: 1.5vw;
+	font-size: 1.2vw;
     line-height: 1.7vw;
     
 
@@ -424,7 +424,7 @@ a{
 /*    font-size : 50px;
    line-height : 55px; */
 	
-	margin-bottom : 20px;
+	margin-bottom : 10px;
    
 
 

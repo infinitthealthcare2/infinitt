@@ -20,7 +20,7 @@
 
 	<!-- <script src="../resources/js/resume.js"></script> -->
 	<script type="text/javascript" src="../resources/js/uploadAjax.js"></script>
-    <link href="../resources/css/resume.css" rel="stylesheet">
+    <link href="../resources/css/resume_m.css" rel="stylesheet">
     <!-- <link href="./resources/css/footer.css" rel="stylesheet"> -->
     <!-- <link rel="stylesheet" href="./resources/css/nav.css"> -->
     
@@ -30,7 +30,7 @@
 
 
 
-
+<input type="hidden" value="${rbno}" class="rbno" >
 
 <div class="wrap">
 	
@@ -51,12 +51,7 @@
 
             <div class="myPhoto">
                 <div class="myPic">
-                    <!-- <img alt="" src="https://www.saramin.co.kr/zf_user/persons/picture?idx=11381218|7863297a7dc138af8c61b908bca1bb88136ae5c6c220b479a1d0c850d6c64138" border="0" width="100" height="140"> -->
-                    <!-- <input type="file" name="uploadFile" id="picFile"> -->
                     
-                    <div id="uploadResult">
-				   		<ul></ul>
-					</div>
                 </div>
                 
                 
@@ -341,7 +336,7 @@
 
 
 
-	<script src="../resources/js/resume.js"></script>
+	<script src="../resources/js/resume_m.js"></script>
 
 
 

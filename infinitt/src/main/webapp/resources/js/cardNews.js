@@ -38,7 +38,7 @@ $(document).ready(function(){
 		//=================================================================================================
 		
 		
-
+	//넘기는 버튼
     $(".cardNews").hover(function(){
 
         $(".prev").css("visibility", "visible");
@@ -57,33 +57,8 @@ $(document).ready(function(){
 
         })
 
-
-    //card 넘기기 
-        
-//        $('.slick').slick({
-//        	
-//        	prevArrow : "<p class='slick-prev'><img src='../resources/img/card/prev.png'></p>", 
-//        	nextArrow : "<p class='slick-next'><img src='../resources/img/card/next.png'></p>", //화살표 커스텀
-//
-//        });
-        	
-
-
-//    $(document).on("click",".next", function(){   
-//
-//
-//        $(this).parents("li").appendTo(".card"); 	
-//
-//
-//    })
-//
-//    $(document).on("click",".prev", function(){ 
-//
-//
-//    	$(this).parents("li").prependTo(".card"); 
-//
-//    })
-        
+      
+    //카드 넘기기
     $(".prev").on("click", function(){
         $(".card li").first().appendTo(".card");
 

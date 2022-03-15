@@ -138,13 +138,10 @@ $(document).ready(function(){
 			
 			actionForm.find("select[name='search']").val("W");
 			
-		}else if( selectVal == "TC"){
-			
-			actionForm.find("select[name='search']").val("TC");
-			
 		}else{
 			
-			actionForm.find("select[name='search']").val("TCW");
+			actionForm.find("select[name='search']").val("D");
+			
 		}
 		
 		actionForm.submit();

@@ -17,6 +17,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.MultipartFile;
 
 @Controller
 @RequestMapping("career")
@@ -40,10 +42,10 @@ public class CareerConroller {
 	
 	@PostMapping("resume")
 	public String resumePost(ResumeDTO resume) {
-		
+		/*, @RequestParam("uploadFile") MultipartFile[] files*/
 		
 		System.out.println("resume controller = " + resume);
-		rservice.resume(resume);
+		rservice.resume(resume); 
 		
 		
 		return "redirect:/mainpage";
@@ -65,8 +67,8 @@ public class CareerConroller {
 		
 		int rbno = resume.getRbno();
 		
+		model.addAttribute("rbno", resume.getRbno());
 		model.addAttribute("resume_m", rservice.resume_m(resume));
-		
 		model.addAttribute("resume_lisence", rservice.resume_lisence(rbno));
 	}
 	

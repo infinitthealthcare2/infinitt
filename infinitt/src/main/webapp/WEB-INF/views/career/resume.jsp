@@ -41,7 +41,7 @@
 
 <div class="wrap">
 
-<form id="resume" method="post" role='form'>
+<form id="resume" method="post" role='form' enctype="multipart/form-data">
 	<%-- <input type="hidden" name=job value="${job}"> --%>
 	
 	<button class="prev"><a href="/infinitt/career/career">뒤로가기</a></button>

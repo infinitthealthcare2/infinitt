@@ -34,11 +34,11 @@ public class NewsController {
 		model.addAttribute("pageMaker", new PageDTO(cri, nservice.getTotalCount(cri)));
 	}
 	
-	//�۾��� ȭ������
+	//占쌜억옙占쏙옙 화占쏙옙占쏙옙占쏙옙
 	@GetMapping("newswrite")
 	public void newswrite() {}
 	
-	//�۾��� ��ư�� Ŭ���ϸ�
+	//占쌜억옙占쏙옙 占쏙옙튼占쏙옙 클占쏙옙占싹몌옙
 	@PostMapping("newswrite")
 	public String newswritePost(NewsDTO news) {
 		
@@ -48,7 +48,7 @@ public class NewsController {
 	}
 
 	
-	//�Խ��� ��� ����Ʈ���� ������ Ŭ���ϸ�
+
 	@GetMapping("newsdetail")
 	public void newsdetail(NewsDTO news, Model model/*, PrevNextDTO pnBoard*/) {
 		model.addAttribute("newsdetail", nservice.newsdetail(news));		
@@ -56,7 +56,7 @@ public class NewsController {
 		
 	}
 	
-	//�Խ��� ������������ �̹����� ����ϱ� ���� select�� ����� javascript��
+
 	@GetMapping(value="/fileList/{nbno}",produces= MediaType.APPLICATION_JSON_UTF8_VALUE)//ajax
 	public ResponseEntity<ArrayList<AttachFileDTO>> fileList1(@PathVariable int nbno){
 		//System.out.println("fileList");
@@ -66,13 +66,13 @@ public class NewsController {
 		
 	}
 	
-	//�� ���� ȭ������
+	//占쏙옙 占쏙옙占쏙옙 화占쏙옙占쏙옙占쏙옙
 	@GetMapping("newsmodify")
 	public void newsmodify(NewsDTO news, Model model) {
 		model.addAttribute("newsdetail", nservice.newsdetail(news));
 	}
 	
-	//�ۼ��� ��ư�� Ŭ���ϸ�
+	//占쌜쇽옙占쏙옙 占쏙옙튼占쏙옙 클占쏙옙占싹몌옙
 	@PostMapping("newsmodify")
 	public String newsmodifyPost(AttachFileDTO aboard, NewsDTO news, RedirectAttributes rttr) {
 		nservice.newsmodify(news);
@@ -82,7 +82,7 @@ public class NewsController {
 		return "redirect:/news/newsdetail?nbno="+news.getNbno();
 	}
 	
-	//�ۻ��� ��ư�� Ŭ���ϸ�
+	//占쌜삼옙占쏙옙 占쏙옙튼占쏙옙 클占쏙옙占싹몌옙
 	@GetMapping("newsremove")
 	public String newsremove(NewsDTO news) {
 		//delete
@@ -90,7 +90,7 @@ public class NewsController {
 		return "redirect:/news/news";
 	}
 	
-	//글수정 버튼을 클릭하면
+	//湲��닔�젙 踰꾪듉�쓣 �겢由��븯硫�
 		@GetMapping("fileDelete")
 		public String fileDelete(AttachFileDTO attach, NewsDTO news) {
 			

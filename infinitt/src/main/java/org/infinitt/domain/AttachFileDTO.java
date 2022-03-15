@@ -8,7 +8,7 @@ public class AttachFileDTO {
 	private int bno;
 	private int nbno;
 	private int rbno;
-	
+
 	
 	public String getFileName() {
 		return fileName;
@@ -58,6 +58,9 @@ public class AttachFileDTO {
 		return "AttachFileDTO [fileName=" + fileName + ", uploadPath=" + uploadPath + ", uuid=" + uuid + ", image="
 				+ image + ", bno=" + bno + ", nbno=" + nbno + ", rbno=" + rbno + "]";
 	}
+	
+	
+	
 	
 	
 	

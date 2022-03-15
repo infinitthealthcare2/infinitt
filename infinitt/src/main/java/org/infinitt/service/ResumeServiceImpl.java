@@ -37,6 +37,7 @@ public class ResumeServiceImpl implements ResumeService{
 	
 	@Transactional
 	public ResumeDTO resume_m(ResumeDTO resume) {
+		
 		return rmapper.resume_m(resume);
 	}
 	
@@ -55,4 +56,10 @@ public class ResumeServiceImpl implements ResumeService{
 	public ArrayList<AttachFileDTO> rfileListPost(int rbno){
 		return amapper.rfileListPost(rbno);
 	}
+	
+	
+	
+	
+	
+
 }

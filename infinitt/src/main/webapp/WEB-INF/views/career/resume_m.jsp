@@ -34,7 +34,7 @@
 
 <div class="wrap">
 	
-	<button class="prev"><a href="/infinitt/career/resumelist">뒤로가기</a></button>
+	<button class="prev"><a href="/infinitt/career/resumelist?pageNum=${pageNum}&amount=${amount}&search=${search}&keyword=${keyword}">뒤로가기</a></button>
 
     <h2 class="mainTitle">이력서</h2>
     

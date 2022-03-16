@@ -80,7 +80,7 @@
 							<a href="/infinitt/career/resume_m?rbno=${resumelist.rbno}" style="color:#333; text-decoration:none">${resumelist.rbno}</a>
 						</td>
 						<td class="title">
-							<a href="/infinitt/career/resume_m?rbno=${resumelist.rbno}" style="color:#333; text-decoration:none">${resumelist.title}</a>
+							<a href="/infinitt/career/resume_m?rbno=${resumelist.rbno}&pageNum=${pageMaker.cri.pageNum}&amount=${pageMaker.cri.amount}&search=${pageMaker.cri.search}&keyword=${pageMaker.cri.keyword}" style="color:#333; text-decoration:none">${resumelist.title}</a>
 						</td>
 						<td class="name">${resumelist.name}</td>
 						<td class="job">${resumelist.job}</td>

@@ -63,11 +63,16 @@ public class CareerConroller {
 	}
 	
 	@GetMapping("resume_m")
-	public void resume_m(ResumeDTO resume, Model model) {
+	public void resume_m(ResumeDTO resume, Model model, Criteria cri) {
 		
 		int rbno = resume.getRbno();
 		
 		model.addAttribute("rbno", resume.getRbno());
+		model.addAttribute("pageNum", cri.getPageNum());
+		model.addAttribute("amount", cri.getAmount());
+		model.addAttribute("search", cri.getSearch());
+		model.addAttribute("keyword", cri.getKeyword());
+		
 		model.addAttribute("resume_m", rservice.resume_m(resume));
 		
 		System.out.println("controller lisence = " +  rservice.resume_m(resume));

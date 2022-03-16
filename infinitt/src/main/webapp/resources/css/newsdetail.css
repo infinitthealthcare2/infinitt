@@ -106,12 +106,17 @@ img{
 }
 
 #uploadResult ul li{
+	width: 700px;
+	height: auto;
 	text-align: center;
+	margin: 0 auto;
 }
 
 #uploadResult ul li img{
+	width: 100%;
+	height: auto;
 	text-align: center;
-	margin-bottom: 10px;
+	margin: 50px 0;
 }
 
 .bbc_container{

@@ -35,7 +35,7 @@
 			    <when test="search == 'W'.toString()">
 			      where writer like concat('%',#{keyword},'%') order by nbno desc
 			    </when>
-			    <when test="search == 'D'.toString()">
+			    <when test="search == 'TC'.toString()">
 			      where title like concat('%',#{keyword},'%') 
 			      or content like concat('%',#{keyword},'%') order by nbno desc
 			    </when>
@@ -99,7 +99,7 @@
   	
   	<select id="getTotalCount" resultType="int">
   		select count(*) from news
-  		<!-- <choose>
+  		<choose>
 	  	 	<when test="search == null">
 		      where 1=1
 		    </when>
@@ -112,7 +112,7 @@
 		    <when test="search == 'W'.toString()">
 		      where writer like concat('%',#{keyword},'%')
 		    </when>
-		    <when test="search == 'D'.toString()">
+		    <when test="search == 'TC'.toString()">
 		      where title like concat('%',#{keyword},'%') 
 		      or content like concat('%',#{keyword},'%')
 		    </when>
@@ -121,16 +121,11 @@
 		      or content like concat('%',#{keyword},'%') 
 		      or writer like concat('%',#{keyword},'%')
 		    </otherwise>
-		</choose> -->
+		</choose>
   	</select>
-  	
   	
   	<select id="getNews" resultType="org.infinitt.domain.NewsDTO">
   		select * from news order by nbno desc limit 0, 5
   	</select>
-  	
-  	
-  	
-  	
-  	
+
   </mapper>

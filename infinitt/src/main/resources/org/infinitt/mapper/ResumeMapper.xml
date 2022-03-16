@@ -128,18 +128,24 @@
       }
   	</select> 	
   	
-  	
-  	
-  	
-  	
-  	
-  	
-  	
-  	
-  	
- 
-  	
   	<select id="getTotalCount" resultType="int">
   		select count(*) from resume
+  		<choose>
+	  	 	<when test="search == null">
+		      where 1=1 order by rbno desc
+		    </when>
+		    <when test="search == 'T'.toString()">
+		      where title like concat('%',#{keyword},'%') order by rbno desc
+		    </when>
+		   	<when test="search == 'N'.toString()">
+		      where name like concat('%',#{keyword},'%') order by rbno desc
+		    </when>
+		    <when test="search == 'J'.toString()">
+		      where job like concat('%',#{keyword},'%') order by rbno desc
+		    </when>
+		    <otherwise> <!-- test="search == 'D'.toString()" -->
+		      where job like concat('%',#{keyword},'%') order by rbno desc
+		    </otherwise>
+		</choose>
   	</select>
 </mapper>

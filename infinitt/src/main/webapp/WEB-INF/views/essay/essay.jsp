@@ -49,11 +49,11 @@
 
 
         <div class="container">
-
-            <div class="btns">
-                <button><a href="http://localhost:8080/infinitt/essay/write">글쓰기</a></button>
-            </div>
-
+			<c:if test="${login!=null}">
+				<div class="btns">
+	                <button><a href="http://localhost:8080/infinitt/essay/write">글쓰기</a></button>
+	            </div>
+			</c:if>
             <ul class="essay">
             
             	<c:forEach items="${essay}" var="essay">

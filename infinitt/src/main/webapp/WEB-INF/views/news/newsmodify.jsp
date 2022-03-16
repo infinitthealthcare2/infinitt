@@ -10,15 +10,13 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
-    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-    
+    <!-- <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script> -->
+    <link rel = "stylesheet" type="text/css" href="../resources/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../resources/css/writeNmodify.css">
     <link rel="stylesheet" href="../resources/css/header.css" type="text/css">
     <link rel="stylesheet" href="../resources/css/footer.css" type="text/css">
     <link rel="stylesheet" href="../resources/css/nav.css" type="text/css">
    	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-   	
-   	<script src="../resources/js/header.js"></script>
    	<script type="text/javascript" src="../resources/js/uploadAjax.js"></script>
    	<script src="../resources/js/nav.js"></script>
 </head>

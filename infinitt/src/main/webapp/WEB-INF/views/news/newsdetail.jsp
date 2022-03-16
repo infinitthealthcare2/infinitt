@@ -71,11 +71,11 @@
                		</c:if>
                		
                		<div class="modify">
-					<a href="/infinitt/news/newsmodify?nbno=${newsdetail.nbno}" class="b_btn">수정</a>
+						<a href="/infinitt/news/newsmodify?nbno=${newsdetail.nbno}" class="b_btn">수정</a>
 					</div>
 					
 					<div class="delete">
-					<button type="button" class="d_modal"  data-bs-toggle="modal" data-bs-target="#exampleModal">삭제
+						<button type="button" class="d_modal"  data-bs-toggle="modal" data-bs-target="#exampleModal">삭제
 					</button></div>
 					
 					<!-- Modal -->
@@ -89,8 +89,9 @@
 					      <div class="modal-footer">
 					        <button type="button" class="d_modal" data-bs-dismiss="modal">취소</button>
 					       
-					        <a href="/infinitt/news/newsremove?nbno=${newsdetail.nbno}">삭제</a> 
-					        
+					       <button type="button" class="d_modal" data-bs-dismiss="modal">
+					        	<a href="/infinitt/news/newsremove?nbno=${newsdetail.nbno}">삭제</a> 
+					       </button>
 					      </div><!-- .modal-footer -->
 					    </div><!-- .modal-content -->
 					  </div>

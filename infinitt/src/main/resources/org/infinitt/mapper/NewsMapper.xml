@@ -126,7 +126,7 @@
   	
   	
   	<select id="getNews" resultType="org.infinitt.domain.NewsDTO">
-  		select * from news order by regdate asc limit 1, 5
+  		select * from news order by nbno desc limit 0, 5
   	</select>
   	
   	

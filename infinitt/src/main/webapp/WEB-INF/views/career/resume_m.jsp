@@ -180,9 +180,9 @@
                         	<!-- school_year -->
                         	<p>
                         		<label for="from" ></label>
-                                <input type="text" id="from" name="school_year_start" style="width : 100px;" value="${resume_m.school_year_start}" disabled>
+                                <input type="text" id="from" name="school_year_start" style="width : 90px;" value="${resume_m.school_year_start}" disabled>
                                 <label for="to">~</label>
-                                <input type="text" id="to" name="school_year_end" style="width : 100px;" value="${resume_m.school_year_end}" disabled>
+                                <input type="text" id="to" name="school_year_end" style="width : 90px;" value="${resume_m.school_year_end}" disabled>
                         	</p>                       
                         </td>
                         <td class="lineup_center" rowspan="1">
@@ -260,9 +260,9 @@
                         <td class="lineup_center">
                         	<p>
                         		<label for="from2" ></label>
-                                <input type="text" id="from2" name="acquisition_date_start" style="width : 100px;" value="${resume_lisence.acquisition_date_start}" disabled>
+                                <input type="text" id="from2" name="acquisition_date_start" style="width : 90px;" value="${resume_lisence.acquisition_date_start}" disabled>
                                 <label for="to2">~</label>
-                                <input type="text" id="to2" name="acquisition_date_end" style="width : 100px;" value="${resume_lisence.acquisition_date_end}" disabled>
+                                <input type="text" id="to2" name="acquisition_date_end" style="width : 90px;" value="${resume_lisence.acquisition_date_end}" disabled>
                         	</p> 
                         </td>
                         <td class="lineup_center">

@@ -73,7 +73,7 @@
                     <li class="mail"><span><strong>이메일</strong></span><input type="email" name="email" value="${resume_m.email}" disabled></li>
                     <li class="phone">
                         <span><strong>전화번호</strong></span>
-                        <input type="tel" name="tel" value="" disabled>                                    
+                        <input type="tel" name="tel" value="${resume_m.tel}" disabled>                                    
                     </li>
                     <li class="address"><span><strong>주소</strong></span><input type="text" name="address" value="${resume_m.address}" disabled></li>
                 </ul>                 

@@ -1,11 +1,12 @@
 $(document).ready(function(){
 	
-	let essayL = $(".essay li:last-child").children(".bno").val();
-	console.log(essayL);
-	//let essayF = $(".essay li:first-child").children(".bno").val();
+	//let essayL = $(".essay li:last-child").children(".bno").val();
 	
+	let essayF = $(".essay li:first-child").children(".bno").val();
+	console.log(essayF);
 
-	for(let i=1; i<= essayL; i++){
+//	for(let i=1; i<= essayL; i++){
+	for(let i=essayF; i>= 1; i--){
 		
 		//bno값
 		let bno = i;

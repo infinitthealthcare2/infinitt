@@ -42,7 +42,7 @@
 			      where job like concat('%',#{keyword},'%') order by rbno desc
 			    </when>
 			    <otherwise> <!-- test="search == 'D'.toString()" -->
-			      where job like concat('%',#{keyword},'%') order by rbno desc
+			      where regdate like concat('%',#{keyword},'%') order by rbno desc
 			    </otherwise>
 
 			</choose>
@@ -144,7 +144,7 @@
 		      where job like concat('%',#{keyword},'%') order by rbno desc
 		    </when>
 		    <otherwise> <!-- test="search == 'D'.toString()" -->
-		      where job like concat('%',#{keyword},'%') order by rbno desc
+		      where regdate like concat('%',#{keyword},'%') order by rbno desc
 		    </otherwise>
 		</choose>
   	</select>

@@ -49,9 +49,9 @@
 					<input type="hidden" name="amount" value="${pageMaker.cri.amount}">
 					<select name="search" id="">
 							<option value="T"<c:if test="${pageMaker.cri.search=='T'}"> selected </c:if>>제목</option>
-							<option value="C"<c:if test="${pageMaker.cri.search=='C'}"> selected </c:if>>내용</option>
-							<option value="W"<c:if test="${pageMaker.cri.search=='W'}"> selected </c:if>>지원자</option>
-							<option value="W"<c:if test="${pageMaker.cri.search=='D'}"> selected </c:if>>지원부서</option>
+							<option value="N"<c:if test="${pageMaker.cri.search=='N'}"> selected </c:if>>지원자</option>
+							<option value="J"<c:if test="${pageMaker.cri.search=='J'}"> selected </c:if>>지원부서</option>
+							<option value="D"<c:if test="${pageMaker.cri.search=='D'}"> selected </c:if>>날짜</option>
 					</select>
 					<input type="text" name="keyword" value="${pageMaker.cri.keyword}">
 					<input type="submit" value="검색" class="btn" id="search">

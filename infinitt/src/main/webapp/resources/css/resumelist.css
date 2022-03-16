@@ -107,6 +107,7 @@ img{
 .table tbody a{
 	/* display: inline-block; */
 	display: block;
+	height: 100%;
 }
 
 

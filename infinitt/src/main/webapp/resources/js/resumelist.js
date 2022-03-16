@@ -20,14 +20,14 @@ $(document).ready(function(){
 			
 			$("select[name='search'] option:eq(0)").attr("selected", "selected");
 			
-		}else if( selectVal == "C"){
+		}else if( selectVal == "N"){
 			
 			$("select[name='search'] option:eq(1)").attr("selected", "selected");
 
 			
-		}else if( selectVal == "W"){
+		}else if( selectVal == "J"){
 			
-			actionForm.find("select[name='search']").val("W");
+			actionForm.find("select[name='search']").val("J");
 			
 		}else{
 			
@@ -73,14 +73,14 @@ $(document).ready(function(){
 			
 			$("select[name='search'] option:eq(0)").attr("selected", "selected");
 			
-		}else if( selectVal == "C"){
+		}else if( selectVal == "N"){
 			
 			$("select[name='search'] option:eq(1)").attr("selected", "selected");
 
 			
-		}else if( selectVal == "W"){
+		}else if( selectVal == "J"){
 			
-			actionForm.find("select[name='search']").val("W");
+			actionForm.find("select[name='search']").val("J");
 			
 		}else{
 			

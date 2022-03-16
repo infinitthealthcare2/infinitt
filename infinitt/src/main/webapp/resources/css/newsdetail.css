@@ -249,3 +249,9 @@ img{
 .modal-footer{
 	border-top: none;
 }
+
+.modal-footer a{
+	display: block;
+	width: 100%;
+	color: #333;
+}

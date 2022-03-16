@@ -48,7 +48,7 @@ public class CareerConroller {
 		rservice.resume(resume); 
 		
 		
-		return "redirect:/mainpage";
+		return "redirect:/career/career";
 		
 		
 	}
@@ -70,7 +70,7 @@ public class CareerConroller {
 		model.addAttribute("rbno", resume.getRbno());
 		model.addAttribute("resume_m", rservice.resume_m(resume));
 		
-		System.out.println("controller lisence = " + rservice.resume_lisence(rbno));
+		System.out.println("controller lisence = " +  rservice.resume_m(resume));
 		model.addAttribute("resume_lisence", rservice.resume_lisence(rbno));
 	}
 	

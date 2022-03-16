@@ -47,6 +47,7 @@ img{
 	width: 100%;
 	height : 80px;
     padding: 5px 0;
+    margin-bottom : 25px;
     border-bottom: 1px solid #bbb;
     
     /* background-color: #ffca2c; */
@@ -64,11 +65,22 @@ img{
     
     text-align : center;
     
+    
 }
 
 .bcc_header1 h2{
-	font-size : 30px;
+	
+	font-size : 1.2em;
+	font-weight : bold;
 	line-height: 60px;
+	
+	/*
+	width : 900px;
+	font-size : 25px; 
+	overflow : hidden;
+	white-space : nowrap;
+	text-overflow : ellipsis; */
+
 }
 
 
@@ -105,11 +117,14 @@ img{
     color: #333;
 }
 
+
 #uploadResult ul li{
 	width: 700px;
 	height: auto;
 	text-align: center;
 	margin: 0 auto;
+	overflow : hidden;
+	
 }
 
 #uploadResult ul li img{

@@ -111,20 +111,22 @@
             </div>
             <div class="close-area">X</div>
             <ul class="content">
-                <li class="remove"><a href="/infinitt/essay/remove?bno=${bno}">게시물 삭제</a></li>
-                
+            	<c:if test="${login!=null}">
+            		<li class="remove">
+            			<a href="/infinitt/essay/remove?bno=${bno}">게시물 삭제</a>
+            		</li>
+            	</c:if>
+
                 <form id="reply_remove" action="/infinitt/essay/removeReply?bno=${bno}">
                    		<input type="hidden" class="F_rno" name="rno" value="">
                    		<input type="hidden" class="F_bno" name="bno" value="${bno}">
                 </form>
-                <li class="removeReply"><a<%--  href="/infinitt/essay/removeReply?bno=${bno}" --%>>댓글 삭제</a><li>
-                
-
-                <li class="modifyReply">댓글 수정<li>
+                <li class="removeReply">
+                	<a<%--  href="/infinitt/essay/removeReply?bno=${bno}" --%>>댓글 삭제</a>
+                </li>
+                <li class="modifyReply">댓글 수정</li>
             </ul>
         </div>
     </div><!--.modal-->
-
-
 </body>
 </html>

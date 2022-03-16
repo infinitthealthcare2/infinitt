@@ -36,6 +36,7 @@ public class BoardController {
 		
 	cri = new Criteria(pagenum,6);
 	
+	System.out.println("essay controller = " + service.essay(cri));
 	model.addAttribute("essay", service.essay(cri));
 
 	

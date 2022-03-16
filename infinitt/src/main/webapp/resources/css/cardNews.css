@@ -115,8 +115,7 @@ img{
 
 .cardNews{
     width: 800px;
-    height: 800px;
-    
+    height: 88vh;
 	position : relative;
 }
 
@@ -171,14 +170,14 @@ img{
 .next{
 	
 	position: absolute;
-	top : 310px;
+	top: 33vh;
 	right: 5px;
 	
 }
 
 .prev{
 	position: absolute;
-	top : 310px;
+	top: 33vh;
 	left: 5px;
 	
 }
@@ -356,13 +355,13 @@ img{
 
 .chatF{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
-    padding: 10px 25px 0 25px;
+    /* padding: 10px 25px 0 25px; */
     box-sizing: border-box;
 
 	border-top :1px solid #888;
-	
+	padding-top: 0.3vh;
 	
 }
 

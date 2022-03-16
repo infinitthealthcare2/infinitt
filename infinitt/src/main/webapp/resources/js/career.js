@@ -5,7 +5,7 @@ $(document).ready(function(){
 //        controls : true,
         autoHover :true,
         pager: false,
-        pause: 5000, 
+        pause: 4000, 
         slideWidth: 1200
     });
 

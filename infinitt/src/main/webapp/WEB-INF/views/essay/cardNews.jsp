@@ -53,7 +53,7 @@
 	                	</div>
 
 	                	
-	                   	<img alt="" src="/infinitt/display?fileName=${imgGet.fileName}">
+	                   	<img class="img" alt="" src="/infinitt/display?fileName=${imgGet.fileName}">
 	                   	
                    	</li>
                    	
